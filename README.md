@@ -9,6 +9,3 @@ A React.js-based New York Times article search tool.
 - Mongoose (ODM)
 - Bootstrap (Front-end framework)
 - Heroku (Cloud platform)
-
-## 
- You can visit the site here: <https://react-nytimes.herokuapp.com/>.
