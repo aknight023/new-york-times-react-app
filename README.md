@@ -1,5 +1,5 @@
 # New York Times React
-A React.js-based New York Times archive exploration tool.
+A React.js-based New York Times article search tool.
 
 ## Technologies Used
 - React.js (UI library)
@@ -12,6 +12,3 @@ A React.js-based New York Times archive exploration tool.
 
 ## 
  You can visit the site here: <https://react-nytimes.herokuapp.com/>.
-
-
-
