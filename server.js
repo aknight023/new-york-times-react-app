@@ -39,6 +39,7 @@ app.use(router);
 
 // Connect mongoose to our database
 const db = process.env.MONGODB_URI || "mongodb://localhost/nyt-react";
+mongoose.Promise = Promise;
 mongoose.connect(db, function(error) {
   // Log any errors connecting with mongoose
   if (error) {
