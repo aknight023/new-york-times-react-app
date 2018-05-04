@@ -10,7 +10,7 @@ const api = {
   },
   // Retrieves saved articles from the mongodb
   getArticle: function() {
-    return axios.get("/api/saved");
+    return axios.get("/api/find");
   },
   // Saves a new article to the mongodb
   saveArticle: function(articleObj) {
