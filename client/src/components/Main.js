@@ -91,12 +91,12 @@ class Main extends Component {
 
   render() {
     return (
-
         <div className="container">
           {/* Jumbotron main section */}
           <div className="jumbotron">
             <h1 className="text-center"><strong>New York Times Article Search</strong></h1>
-            <h3 className="text-center">This App was created with React</h3>
+            <h3 className="text-center"><i className="far fa-newspaper "></i> This App was created with React</h3>
+            
           </div>
           {/* Search Form and Results Section */}
           <Search
@@ -108,12 +108,13 @@ class Main extends Component {
             results={this.state.articles}
           />
           {/* Saved Articles Section */}
+          {this.state.saved.length ? (            
             <div className="row">
               <div className="col-lg-12">
                 <div className="card">
                   <div className="card-header">
                     <h3 className="card-title">
-                      <strong>Saved Articles</strong>
+                      <strong>Saved Articles</strong> <i className="far fa-save"></i>
                     </h3>
                   </div>
                   <div className="card-body">
@@ -133,7 +134,8 @@ class Main extends Component {
                   </div>
                 </div>
               </div>
-            </div>          
+            </div>
+          ) : (<div></div>) }          
         </div>
       
 

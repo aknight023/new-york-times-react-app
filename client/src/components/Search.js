@@ -7,7 +7,7 @@ const Search = (props) => (
         <div className="card">
           <div className="card-header">
             <h3 className="card-title">
-              <strong>Search</strong>
+              <strong>Search</strong> <i className="fas fa-search"></i>
             </h3>
           </div>
           <div className="card-body">
@@ -38,7 +38,7 @@ const Search = (props) => (
         <div className="card">
           <div className="card-header">
             <h3 className="card-title">
-              <strong>Results</strong>
+              <strong>Results</strong> <i className="far fa-newspaper"></i>
             </h3>
           </div>
           <div className="card-body">
