@@ -5,7 +5,7 @@ const api = {
   searchNYT: function(topic, startYear, endYear) {
     const authKey =  env.apikey ||  process.env.NYTAPIKEY;
     const queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=" +
-    authKey + "&q=" + topic + "&begin_date=" + startYear + "0101&end_date=" + endYear + "0101";
+    authKey + "&q=" + topic + "&begin_date=" + startYear + "0101&end_date=" + endYear + "1231";
     return axios.get(queryURL);
   },
   // Retrieves saved articles from the mongodb
